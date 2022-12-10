@@ -1,27 +1,27 @@
 const users = [
   {
     id: 1,
-    url: "../assets/1.jpeg",
+    url: "./assets/1.jpeg",
   },
   {
     id: 2,
-    url: "../assets/2.jpeg",
+    url: "./assets/2.jpeg",
   },
   {
     id: 3,
-    url: "../assets/3.jpeg",
+    url: "./assets/3.jpeg",
   },
   {
     id: 4,
-    url: "../assets/4.jpeg",
+    url: "./assets/4.jpeg",
   },
   {
     id: 5,
-    url: "../assets/5.jpeg",
+    url: "./assets/5.jpeg",
   },
   {
     id: 6,
-    url: "../assets/6.jpeg",
+    url: "./assets/6.jpeg",
   },
 ];
 
