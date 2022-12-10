@@ -1,0 +1,76 @@
+.device-tablet-p {
+  width: 420px;
+  height: 100%;
+}
+.device-tablet-p::after {
+  left: 47%;
+}
+
+.preview {
+  overflow: hidden;
+}
+.device {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+}
+.device::after {
+  transition: all 0.5s ease;
+  transform: scale(0.5);
+  border-radius: 1em;
+}
+
+.device::after {
+  content: " ";
+  background-color: #444;
+  position: absolute;
+}
+
+.device-desktop {
+  width: 100%;
+  height: 100%;
+}
+
+/* .device-desktop::after {
+width: 3em;
+height: 3em;
+bottom: 1em;
+left: 47.5%;
+border-radius: 100em;
+} */
+
+.device-mobile-p {
+  width: 240px;
+  height: 100%;
+  /* background-color: black; */
+}
+.device-mobile-p::after {
+  left: 45%;
+}
+
+/* Style the buttons */
+.roundbtn {
+  cursor: pointer;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.roundbtn:hover {
+  background-color: #d1d5db;
+  border-radius: 50%;
+}
+.roundbtn.active {
+  background-color: #d1d5db;
+  border-radius: 50%;
+}
+
+.roundbtn {
+  background-color: white;
+  color: white;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 50%;
+}
